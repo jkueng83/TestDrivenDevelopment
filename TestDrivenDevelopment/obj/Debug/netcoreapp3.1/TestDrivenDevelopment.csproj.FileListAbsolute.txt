@@ -1,0 +1,13 @@
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\bin\Debug\netcoreapp3.1\TestDrivenDevelopment.exe
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\bin\Debug\netcoreapp3.1\TestDrivenDevelopment.deps.json
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\bin\Debug\netcoreapp3.1\TestDrivenDevelopment.runtimeconfig.json
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\bin\Debug\netcoreapp3.1\TestDrivenDevelopment.runtimeconfig.dev.json
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\bin\Debug\netcoreapp3.1\TestDrivenDevelopment.dll
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\bin\Debug\netcoreapp3.1\TestDrivenDevelopment.pdb
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\obj\Debug\netcoreapp3.1\TestDrivenDevelopment.AssemblyInfoInputs.cache
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\obj\Debug\netcoreapp3.1\TestDrivenDevelopment.AssemblyInfo.cs
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\obj\Debug\netcoreapp3.1\TestDrivenDevelopment.csproj.CoreCompileInputs.cache
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\obj\Debug\netcoreapp3.1\TestDrivenDevelopment.dll
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\obj\Debug\netcoreapp3.1\TestDrivenDevelopment.pdb
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\obj\Debug\netcoreapp3.1\TestDrivenDevelopment.genruntimeconfig.cache
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopment\obj\Debug\netcoreapp3.1\TestDrivenDevelopment.csprojAssemblyReference.cache

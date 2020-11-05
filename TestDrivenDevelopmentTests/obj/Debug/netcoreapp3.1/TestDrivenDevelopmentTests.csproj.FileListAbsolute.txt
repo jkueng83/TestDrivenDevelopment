@@ -1,0 +1,4 @@
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopmentTests\obj\Debug\netcoreapp3.1\TestDrivenDevelopmentTests.csprojAssemblyReference.cache
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopmentTests\obj\Debug\netcoreapp3.1\TestDrivenDevelopmentTests.AssemblyInfoInputs.cache
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopmentTests\obj\Debug\netcoreapp3.1\TestDrivenDevelopmentTests.AssemblyInfo.cs
+C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\TestDrivenDevelopmentTests\obj\Debug\netcoreapp3.1\TestDrivenDevelopmentTests.csproj.CoreCompileInputs.cache
