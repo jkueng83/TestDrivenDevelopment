@@ -1,4 +1,0 @@
-C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.csprojAssemblyReference.cache
-C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.AssemblyInfoInputs.cache
-C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.AssemblyInfo.cs
-C:\03_Coding\02 Projects\C#\TestDrivenDevelopment\XUnitTestProject1\obj\Debug\netcoreapp3.1\XUnitTestProject1.csproj.CoreCompileInputs.cache

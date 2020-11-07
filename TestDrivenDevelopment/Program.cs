@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Threading;
+using TestDrivenDevelopment.Klassen;
 
 namespace TestDrivenDevelopment
 {
@@ -7,6 +9,16 @@ namespace TestDrivenDevelopment
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            Coffee coffee = new Coffee();
+
+             Console.WriteLine( "Termoeratur: " +  coffee.Temperature);
+
+            Breakfast breakfast = new Breakfast();
+
+           
+
+            Console.ReadLine();
         }
     }
 }

@@ -1,33 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace TestDrivenDevelopment.Klassen
 {
     public class Coffee
     {
-        enum temperatureEnum { HOT, QUITEHOT, NOTSOHOT, COLD };
-
+        enum temperatureEnum { DEFAULT, HOT, QUITEHOT, NOTSOHOT, COLD };
         temperatureEnum temperature;
-
-
         private string _temperatuer;
 
-        
         public string Temperature
         {
-            get {
+            get
+            {
                 UpdateTemperature();
-                return this._temperatuer; }
+                //string s1 = "Hot";
+                return this._temperatuer;
+            }
             set { this._temperatuer = value; }
         }
-
 
         public Coffee()
         {
             this._temperatuer = "";
+            this.temperature = temperatureEnum.DEFAULT;
         }
-      
 
         private void UpdateTemperature()
         {
@@ -53,9 +52,8 @@ namespace TestDrivenDevelopment.Klassen
                     this._temperatuer = "Hot";
                     break;
             }
-            
+
         }
-        
 
     }
 }
