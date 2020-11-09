@@ -2,21 +2,23 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading;
+using System.Timers;
 
 namespace TestDrivenDevelopment.Klassen
 {
     public class Coffee
     {
-        enum temperatureEnum { DEFAULT, HOT, QUITEHOT, NOTSOHOT, COLD };
+        enum temperatureEnum { HOT, QUITEHOT, NOTSOHOT, COLD };
         temperatureEnum temperature;
         private string _temperatuer;
+
+        private static System.Timers.Timer aTimer;
 
         public string Temperature
         {
             get
-            {
-                UpdateTemperature();
-                //string s1 = "Hot";
+            {              
                 return this._temperatuer;
             }
             set { this._temperatuer = value; }
@@ -25,34 +27,59 @@ namespace TestDrivenDevelopment.Klassen
         public Coffee()
         {
             this._temperatuer = "";
-            this.temperature = temperatureEnum.DEFAULT;
+            this.temperature = temperatureEnum.HOT;
+            SetTimer();
+            UpateTemperatureString();
         }
 
-        private void UpdateTemperature()
+        private void SetTimer()
         {
+            aTimer = new System.Timers.Timer(490);
+            aTimer.AutoReset = true;
+            aTimer.Enabled = true;
+            aTimer.Elapsed += new ElapsedEventHandler(UpdateTemperature);
+        }
 
+        private void UpateTemperatureString()
+        {
+            switch (this.temperature)
+            {
+                case temperatureEnum.HOT:
+                    this._temperatuer = "Hot";
+                    break;
+                case temperatureEnum.QUITEHOT:
+                    this._temperatuer = "Quite hot";
+                    break;
+                case temperatureEnum.NOTSOHOT:
+                    this._temperatuer = "Not so hot";
+                    break;
+                case temperatureEnum.COLD:
+                    this._temperatuer = "Cold";
+                    break;
+            }
+        }
+
+        private void UpdateTemperature(object source, ElapsedEventArgs e)
+        {      
             switch (this.temperature)
             {
                 case temperatureEnum.HOT:
                     this.temperature = temperatureEnum.QUITEHOT;
-                    this._temperatuer = "Quite hot";
                     break;
                 case temperatureEnum.QUITEHOT:
                     this.temperature = temperatureEnum.NOTSOHOT;
-                    this._temperatuer = "Not so hot";
                     break;
                 case temperatureEnum.NOTSOHOT:
                     this.temperature = temperatureEnum.COLD;
-                    this._temperatuer = "Cold";
                     break;
                 case temperatureEnum.COLD:
                     break;
                 default:
                     this.temperature = temperatureEnum.HOT;
-                    this._temperatuer = "Hot";
                     break;
             }
 
+            UpateTemperatureString();
         }
 
     }

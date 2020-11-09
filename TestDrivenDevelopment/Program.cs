@@ -8,15 +8,19 @@ namespace TestDrivenDevelopment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Test Driven Development!");
 
             Coffee coffee = new Coffee();
 
-             Console.WriteLine( "Termoeratur: " +  coffee.Temperature);
+            while (!coffee.Temperature.Equals("Cold"))
+            {
 
+                Console.WriteLine("Termoeratur: " + coffee.Temperature);
+            }
+            Console.WriteLine("Termoeratur: " + coffee.Temperature);
             Breakfast breakfast = new Breakfast();
 
-           
+
 
             Console.ReadLine();
         }

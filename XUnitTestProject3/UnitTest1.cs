@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 using TestDrivenDevelopment.Klassen;
 //using TestDrivenDevelopment.Klassen;
 using Xunit;
@@ -20,11 +21,11 @@ namespace XUnitTestProject3
         {
             var coffee = Breakfast.PourCoffee();
             Assert.Equal("Hot", coffee.Temperature);
-            // Thread.Sleep(500);
+            Thread.Sleep(500);
             Assert.Equal("Quite hot", coffee.Temperature);
-            //  Thread.Sleep(500);
+            Thread.Sleep(500);
             Assert.Equal("Not so hot", coffee.Temperature);
-            //   Thread.Sleep(500);
+            Thread.Sleep(500);
             Assert.Equal("Cold", coffee.Temperature);
         }
 
